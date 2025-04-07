@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 """
     Throughout the bomb calorimetry experiment, the students either read the temperature from the calorimeter display every 10 seconds, a process which is straight up tedious, fairly prone to errors and limiting in the number of datapoints collected.
-    to prevent these reading errors, videos of the display are recorded and the data is obtained later on. Students then extract datapoints from the video to a data sheet, again, a fairly boring and repetitive endeavor. 
+    to prevent such reading errors, videos of the display are recorded and the data is obtained later on. Students then extract datapoints from the video to a data sheet, again, a fairly boring and repetitive endeavor. 
 
     To remove the need to manually extract the data from the video to a csv file, the following script was designed.
 
