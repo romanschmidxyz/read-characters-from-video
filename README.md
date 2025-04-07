@@ -31,6 +31,7 @@ To remove the need to manually extract the data from the video to a csv file, th
 - extract the time and temperature from each frame and add a new row to the csv file. (after character extraction, the frame is deleted)
   ![Alt text](https://github.com/romanschmidxyz/read-characters-from-video/blob/main/Character_recognition_to_csv.png)
 - before termination the folder image_frames is deleted automatically and except for the data file no additional hard drive space is consumed.
+- If the program is stopped mid process, just run it again. Enter the name of the same csv and the program will resume where it was stopped.
 
-If there are questions / problems shoot me an E-Mail: roman.schmid2@students.unibe.ch
-or collaborate with me on github.
+- If there are questions / problems shoot me an E-Mail: roman.schmid2@students.unibe.ch
+  or collaborate with me on github.
