@@ -8,7 +8,7 @@ To remove the need to manually extract the data from the video to a csv file, th
 
 
 ## Step-by-step instructions
-  - Store this file in the SAME FOLDER AS THE VIDEOS
+  - Store the 'ocr_on_video.py' file in the SAME FOLDER AS THE VIDEOS
   - Install all the necessary python modules (if you don't have them already):
       - google-generativeai
       - OpenCV
@@ -17,16 +17,16 @@ To remove the need to manually extract the data from the video to a csv file, th
 
   - Generate your API-Key on this website (sign in with your google account): https://aistudio.google.com/app/apikey?hl=de
   - Copy the API-Key
-  - In terminal or your code editor, create a new file in the same folder called '.env' and write API_KEY= 'your api key' in the file (The program will         then read the key from that file)
-        - If you have trouble with the above step, shoot me an E-Mail (attached below) or just put your API-Key directly into the code on line 200:                   genai.configure(api_key='Your key here') and remove the four lines above that.
+  - In terminal or your code editor, create a new file in the same folder called '.env' and write API_KEY='your api key' in the file (The program will then read the key from that file)
+    - If you have trouble with the above step, shoot me an E-Mail (attached below) or just put your API-Key directly into the code on line 204: genai.configure(api_key='Your key here') and remove the four lines above that.
   - Make sure your internet connection is working fine.
   - Now you're good to go and the program can be executed.
 
 ## If executed, the program will
-- ask you to enter a name for the csv data file. You don't have to put '.csv' at the end. Example: 'data_maleicacid1'
-- ask you to enter the name of the video file that should be processed. Don't forget the video format. Example: 'bombcal_maleicacid1.MP4'
+- ask you to enter a name for the csv data file. You don't have to put '.csv' at the end. Example: 'data_calib_benzoicacid1'
+- After pressing enter, it will ask you to enter the name of the video file that should be processed. Don't forget the video format. Example: 'bombcal_calib_benzoicacid1.MP4'
   ![Alt text](https://github.com/romanschmidxyz/read-characters-from-video/blob/main/Step1.png)
-- extract the frames from the video and store them in a folder called image_frames
+- After pressing enter, it will extract the frames from the video and store them in a folder called image_frames
   ![Alt text](https://github.com/romanschmidxyz/read-characters-from-video/blob/main/Frame_extraction.png)
 - extract the time and temperature from each frame and add a new row to the csv file. (after character extraction, the frame is deleted)
   ![Alt text](https://github.com/romanschmidxyz/read-characters-from-video/blob/main/Character_recognition_to_csv.png)
