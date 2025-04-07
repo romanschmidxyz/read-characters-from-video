@@ -219,5 +219,6 @@ if __name__ == '__main__':
 
     #remove frame directory after completion
     os.rmdir("image_frames")
+    print("Finished successfully.")
 
 
