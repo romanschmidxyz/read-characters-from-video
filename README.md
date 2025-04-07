@@ -8,10 +8,10 @@ To remove the need to manually extract the data from the video to a csv file, th
 ## Step-by-step instructions
   - Store this file in the SAME FOLDER AS THE VIDEOS
   - Install all the necessary python modules (if you don't have them already):
-      google-generativeai
-      OpenCV
-      natsort
-      dotenv
+      - google-generativeai
+      - OpenCV
+      - natsort
+      - dotenv
 
   - Generate your API-Key on this website (sign in with your google account): https://aistudio.google.com/app/apikey?hl=de
   - Copy the API-Key
